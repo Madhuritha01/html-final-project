@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Biryani House</title>
+    <style>
+      h1{
+        text-align:center;
+        font-family:'Times New Roman', serif;
+        font-size:50px;
+        color:#311d47;
+      }
+      h2{
+        text-align:center;
+      }
+      h3{
+        text-align:center;
+      }
+      *{
+        margin:10;
+        padding:0;
+        background-color:#e6a8cd;
+      }
+      li{
+        display:inline;
+      }
+      div{
+        text-align:center;
+        font-size:20px;
+      }
+      article{
+        text-align:center;
+      }
+      p{
+        text-align:center;
+        font-size:20px;
+      }
+      #header-img{
+        width:10%;
+      }
+      .navigation{
+        text-align:left;
+        background-color:#c7e0a2;
+        overflow:hidden;
+      }
+      .navigation a {
+        float: left;
+        text-align: center;
+        padding: 14px 16px;
+        font-size: 20px;
+}
+.navigation a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Biryani House</h1>
+      <p style="text-align:center;"><img src="logo.jpg" alt="" id="header-img"></p>
+      <nav><div class="navigation">
+
+          <a href="#menu">Menu</a>
+          <a href="#order-form">order-form</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="menu">
+        <h2>Menu</h2>
+        <article class="">
+          <img align="middle" src="chickbiryani.jpg" alt="chicken biryani" >
+          <h3>Chicken Biryani</h3>
+          <p>An authentic Hyderabadi Biryani where chicken is marinated with ablend of spices, layered with the finest Basmati rice and garnished with generous portions of saffron strands and ghee. <br><i>₹250</i></p>
+        </article>
+        <hr><br>
+        <article class="">
+          <img src="mutbiryani.jpg" alt="" align="middle">
+          <h3>Mutton biryani</h3>
+          <p>The legendary Hyderabadi freshly cooked Kachhi dum ki Biryani where tender pieces of juicy lamb meat is thoroughly marinated with secret biryani-mix and slow cooked midst layers of the finest basmati rice.<br><i>₹300</i></p>
+        </article>
+        <hr><br>
+        <article class="">
+          <img src="chicktikka.jpg" alt="" align="middle">
+          <h3>Chicken Tikka Kebab</h3>
+          <p>Juicy and tender 8 pieces of chicken, with bite of chillies and the gentleness of yoghurt.And leaves you with a smoky aftertaste.<br><i>₹200</i></p>
+        </article>
+        <hr><br>
+      </section>
+      <section id="order-form">
+        <div>
+        <h2>Place Order</h2>
+        <form class="">
+          <label for="cb">Chicken Biryani </label>   <input type="number" id="cb" value="0" min="0"><br><br>
+          <label for="mb">Mutton Biryani</label>   <input type="number" id="mb" value="0" min="0"><br><br>
+          <label for="ct">Chicken Tikka Kebab</label><input type="number" id="ct" value="0" min="0"><br>
+          <h3>Addons:</h3><br>
+          <label for="onion">Onion and lime</label><input type="checkbox" id="onion" value=""><br>
+          <label for="raita">Biryani Raita</label><input type="checkbox" id="raita" value=""><br>
+          <label for="salan">Mirchi ka salan </label><input type="checkbox" id="salan" value=""><br><br>
+          <h4>Write down any special Instructions:</h4><br>
+          <textarea name="Special Instructions" rows="8" cols="80"></textarea><br><br>
+          <label for="submit"><input type="submit" value="Go to checkout"></label>
+        </form>
+        </div>
+      </section>
+
+    </main>
+    <footer>
+      <p>Made with love by MadhurithaA</p>
+    </footer>
+  </body>
+</html>
